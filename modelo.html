@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tribunal Regional Eleitoral</h1>
+    </header>
+        <section>
+            <div>
+                <label for="total">Total de eleitores: </label><br><input type="text" id="total">
+                <p>
+                    <label for="brancos">Votos brancos: </label><br><input type="text" id="brancos">
+                </p>
+                <p>
+                    <label for="nulos">Votos nulos: </label><br><input type="text" id="nulos">
+                </p>
+                <p>
+                    <label for="val">Votos válidos: </label><br><input type="text" id="val">
+                </p>
+                <p>
+                    <input type="button" value="Calcular %" onclick="calcular()">
+                </p>
+            </div>
+        </section>
+    <footer>
+        <p>&copy; SENAI</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
